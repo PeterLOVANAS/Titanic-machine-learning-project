@@ -47,9 +47,9 @@ def instance():
     return person
 
 def run_model():
-    model_path_1 = "/Users/mackikopro/Desktop/APeter-DataMac.650618/Programming-droid-AI-PeterMPB/AI_Model/Google_Drive/modelV5_2_2D_cop1.h5"
-    model_path_2 = "/Users/mackikopro/Desktop/APeter-DataMac.650618/Programming-droid-AI-PeterMPB/AI_Model/Google_Drive/modelV5_3_1D_cop1.h5"
-    model_path_3 = "/Users/mackikopro/Desktop/APeter-DataMac.650618/Programming-droid-AI-PeterMPB/AI_Model/Google_Drive/Model_RF_V2_1D.pkl"
+    model_path_1 = "modelV5_2_2D_cop1.h5"
+    model_path_2 = "modelV5_3_1D_cop1.h5"
+    model_path_3 = "Model_RF_V2_1D.pkl"
     data = instance()
     ch = modc.get()
     result_et.delete(0,END)
