@@ -176,7 +176,7 @@ run_but = Button(Home , text = "Run Model" , command= run_model)
 run_but.place(x = 500 , y = 370)
 
 # Image of Titanic
-photo = PhotoImage(file = "/Users/mackikopro/Desktop/APeter-DataMac.650618/Photo-PeterMBP/NicePng_cargo-ship-png_513814.png" )
+photo = PhotoImage(file = "NicePng_cargo-ship-png_513814.png" )
 phot = Label(Home , image= photo , width = 1000 , height = 250)
 phot.place(x = 300 ,  y = 500)
 
