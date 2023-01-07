@@ -49,7 +49,7 @@ def instance():
 def run_model():
     model_path_1 = "modelV5_2_2D_cop1.h5"
     model_path_2 = "modelV5_3_1D_cop1.h5"
-    model_path_3 = "Model_RF_V2_1D.pkl"
+    model_path_3 = "Model_RF_VB_1D.pkl"
     data = instance()
     ch = modc.get()
     result_et.delete(0,END)
@@ -61,7 +61,7 @@ def run_model():
         modelV5_3 = tf.keras.models.load_model(model_path_2)
         predictions = modelV5_3.predict(data)
         result_et.insert("", f"{predictions[0][1]*100:.2f}")
-    elif ch == "Model V2 (RF)":
+    elif ch == "Model VB (RF)":
         modelRF_2 = pickle.load(open(model_path_3 , "rb"))
         predictions = modelRF_2.predict(data)
         result_et.insert("" , f"{predictions[0][1]*100:.2f}")
