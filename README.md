@@ -1,6 +1,8 @@
 # Titanic-machine-learning-project
 
-This a project dedicated to Kaggle competition: Titanic - Machine Learning from Disaster
+This a project dedicated to Kaggle competition: The Complete Titanic Dataset
+
+My kaggle : https://www.kaggle.com/code/peterlparker/titanic-ml-tensorflow
 
 Complete dataset from https://www.kaggle.com/datasets/vinicius150987/titanic3?resource=download 
 
